@@ -1,0 +1,78 @@
+.w-100{
+  width: 100%;
+}
+.w-50{
+  width: 50%;
+}
+.h-70vh{
+  height: 70vh;
+}
+.h-50{
+  height: 50%;
+}
+.p-10{
+  padding: 10px;
+}
+.p-1rem{
+  padding: 1rem;
+}
+.d-flex{
+  display: flex;
+}
+.aling-center{
+  align-items: center;
+}
+.j-c-center{
+  justify-content: center;
+}
+.j-c-evenly{
+  justify-content: space-evenly;
+}
+.j-c-between{
+  justify-content: space-between;
+}
+.j-c-around{
+  justify-content: space-around;
+}
+.fl-d-col{
+  flex-direction: column;
+}
+.fl-w-wrap{
+  flex-wrap: wrap;
+}
+.gap-20{
+  gap: 20px;
+}
+.back-grey-heat{
+  background-color: rgba(0, 0, 0, 0.123);
+}
+.br-10{
+  /* border: 1px; */
+  outline: none;
+  border-radius: 5px;
+}
+.text-cetner{
+  text-align: center;
+}
+.btn{
+  border: 1px rgba(1, 201, 1, 0.719) solid;
+  background-color: rgb(7, 219, 7);
+  color: white;
+  padding: 10px ;
+  border-radius: 5px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.btn:hover{
+  transition: .2s;
+  box-shadow: 0px 0px 9px rgba(4, 228, 4, 0.74);
+}
+.buttonPagination{
+  width: 50px;
+  border: none;
+  outline: none;
+}
+.buttonPagination img{
+  width: 100%;
+  height: 100%;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>poster</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/ownLibraryForStyles.css">
+</head>
+<body>
+  <header class="header d-flex j-c-evenly w-100 aling-center">
+    <input id="titleInput" class="p-10 br-10 " type="text" placeholder="search by title">
+    <input id="idInput" class="p-10 br-10"  type="text" placeholder="search by id">
+    <input id="textInput" class="p-10 br-10" type="text" placeholder="search by text">
+  </header>
+  <main>
+    <section id="mainContainer" class="d-flex p-1rem fl-w-wrap gap-20 aling-center j-c-evenly">
+
+    </section>
+  </main>
+  <footer class="footer d-flex align-center j-c-center gap-20 ">
+    <button onclick="onClickLastPage()"  class="btn buttonPagination disabled-btn " onclick=""><img src="./icons/arrow-left.png" alt=""></button>
+    <button onclick="onClickNextPage()" class="btn buttonPagination"><img src="./icons/arrow-right (2).png" alt=""></button>
+  </footer>
+  
+  <script src="./js/script.js"></script>
+</body>
+</html>
